@@ -112,7 +112,7 @@
     flex-direction: row;
     justify-content:left;
     flex-wrap: wrap;
-    max-height: 45vh;
+    max-height: 40vh;
     overflow-y: auto;
 }
 
