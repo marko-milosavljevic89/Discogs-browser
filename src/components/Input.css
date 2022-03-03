@@ -1,0 +1,70 @@
+* {
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+}
+.over-container {    
+    padding-bottom: 200pX;
+    padding-top: 200px;
+    background: url('./../images/IMG_5940.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.search-container {
+    background-color: rgba(234, 194, 154, 0.8);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    border-top: rgb(253, 71, 39) solid 5px;
+    border-bottom: rgb(253, 71, 39) solid 5px;
+}
+
+
+.input-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    color: wheat;
+}
+
+.search-title {
+    font-size: 30px;
+}
+
+.search {
+    background-color: rgb(253, 71, 39);
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 25px;
+    width: 25%;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+.artist, .song {
+    border: none;
+    transition: width 0.4s ease-in-out;
+    font-size: 25px;
+    width: 20%;
+}
+
+.artist:focus, .song:focus{
+    border: rgb(253, 71, 39) solid 2px;
+    border-radius: 3px;
+    outline: none;
+}
+
+@media only screen and (max-width: 1230px) {
+    
+    .artist:focus, .song:focus{
+        
+        width: 40%;
+        
+    }
+}

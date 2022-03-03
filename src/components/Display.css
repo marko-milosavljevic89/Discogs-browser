@@ -1,0 +1,66 @@
+* {
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+}
+
+.display-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    align-items: center;
+    background-color: transparent;
+    width: 200px;
+    height: 250px;
+    margin:30px;
+    cursor: pointer;
+     
+}
+
+.load-container {
+    display: flex;    
+    flex-flow: column;
+    align-items: center;
+    background-color: transparent;
+    width: 200px;
+    height: 250px;
+    margin:30px;
+    cursor: pointer;
+}
+
+.display {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #FEF8EF;
+    
+    
+}
+
+.loading-thumb {
+    width: 200px;
+    height: 200px;
+}
+
+.album-thumb {
+    width: 200px;
+    height: 200px;
+}
+
+.display-container .album-year {
+   margin: 0
+}
+
+.display-container .album-title {
+    margin-bottom: 5px
+ }
+
+ .display-container .album-thumb {
+    margin: 0
+ }
+ 
+ .album-title {
+    width: 100%; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    font-weight: bold;
+ }

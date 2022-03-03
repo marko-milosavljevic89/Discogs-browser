@@ -1,0 +1,53 @@
+* {
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FD4727;
+    color: wheat;
+    font-size: 22px;
+}
+
+
+.first {
+    cursor: pointer;
+}
+
+.first-disabled {
+    color: gray;
+    cursor: not-allowed;
+}
+
+.previous {
+    cursor: pointer;
+}
+
+.previous-disabled {
+    color: gray;
+    cursor: not-allowed;
+}
+
+.next {
+    cursor: pointer;
+}
+
+.next-disabled {
+    color: gray;
+    cursor: not-allowed;
+}
+
+.last {
+    cursor: pointer;
+}
+
+.last-disabled {
+    color: gray;
+    cursor: not-allowed;
+}
+
+.current {
+    cursor: pointer;
+}

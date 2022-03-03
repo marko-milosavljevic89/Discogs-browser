@@ -1,0 +1,226 @@
+
+
+.details-overlay {
+    position: fixed; 
+  display: flex; 
+  width: 100%; 
+  height: 100%;
+  overflow: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 0; 
+}
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    
+    
+}
+
+.master-container {
+    position:fixed;
+    display: flex;        
+    top:10%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    z-index: 1001;
+    
+    
+    
+}
+
+.close-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-evenly;   
+    
+       
+    
+    width: 100%;
+    
+    z-index: 1;
+    
+    
+    
+}
+
+.close-button {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    float: right;
+    height: 25px;
+    width: 25px;
+    background: none;
+    color: rgb(253, 71, 39);
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.details-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    justify-content: space-around;    
+    
+    top: 20%;
+    
+    z-index: 1;
+    
+    
+}
+
+.image-container {
+    position: relative;
+    
+    
+    margin-right: 12px;
+}
+
+.spany {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+    align-items: center;
+}
+
+.album-image {
+    width: 40vw;
+    height: 40vmax;
+    width: 100%;
+    height: auto;
+    max-width: 520px;
+    max-height: 520px;
+    
+}
+
+.secondary-container {
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 22px;
+    
+    top: 0%;
+    
+}
+
+.tracklist {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+    max-height: 45vh;
+    overflow-y: auto;
+}
+
+
+
+
+.h3-container {
+    top: 20px;
+    text-align: center;
+    color: #282828;
+
+    border-bottom: rgb(253, 71, 39) solid 5px;
+}
+
+.album-title {
+    color: #282828;
+    
+}
+
+.goto-button {
+    background-color: rgb(253, 71, 39);
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 25px;
+    width: 85%;
+    font-weight: bold;    
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.goto-link {
+    text-decoration: none;
+    color: white;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: space-around;    
+    text-align: center;
+}
+
+@media only screen and (max-width: 774px) {
+    
+    .master-container {
+        
+        position: absolute;
+        top: 40%;
+        width: 80%;
+        padding: 15px;
+        align-content: center;
+        z-index: 1;       
+
+    }
+    
+    .close-container {
+        min-width: 90%;
+        display:flex;
+        flex-direction: row;       
+        align-content: center;
+        justify-content:space-around;
+        z-index: 1;
+        
+    }
+    
+    
+    .tracklist {
+    
+        max-height: 100%;
+        overflow-y: hidden;
+    }
+    
+    
+    .album-image {
+        min-width: 280px;
+    min-height: 280px;
+    }
+
+    
+    .details-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .album-title {
+    font-size: 1.2rem;
+}
+    
+}
+
