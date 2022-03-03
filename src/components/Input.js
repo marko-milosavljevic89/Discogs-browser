@@ -40,7 +40,7 @@ const Input = ({seek, setSeek}) => {
         
         <div className="over-container">
             <div className="search-container">
-                <h3 className="search-title">Find your favorite albums/artists in the simplest way possiburu! </h3>
+                <h3 className="search-title">Browse albums by your favorite artist and / or song.</h3>
                 <div className="input-container">
                     <input className="artist" placeholder="Artist" onChange={ (event) => setArtist(event.target.value) }></input>
                     <input className="song" placeholder="Song" onChange={ (event) => setSong(event.target.value) }></input>
