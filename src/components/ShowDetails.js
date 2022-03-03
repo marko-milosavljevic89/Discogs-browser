@@ -60,7 +60,7 @@ const ShowDetails = ({togglePop, setTogglePop, detailsData, detailsURI = 'https:
                             {detailsResource.tracklist ? <p> {detailsResource.tracklist.map((detail) => detail.duration ? <div className="track">{detail.title + '.........' + detail.duration}</div> : <div className="track">{detail.title}</div> )}  </p> : <img className="loading-svg" src={loading}></img> }
                             </div>
                             <div className="information-container">
-                            <div className="goto-button"><a className="goto-link" href={detailsResource.uri} target="_blank">Discogs</a></div>
+                            <div className="goto-button"><a className="goto-link" href={detailsResource.uri} target="_blank">Go to Discogs</a></div>
                             </div>
                             
                         </div>
