@@ -28,10 +28,8 @@ const Display = ({setDetailsURI, setDetailsData, seek, togglePop, setTogglePop})
         return (
         <Result url = {result.resource_url} setDetailsURI={setDetailsURI} setDetailsData={setDetailsData} key={index} result = {result}  index = {index} togglePop={togglePop} setTogglePop={setTogglePop} />
                 )
-        }) 
-    }
-
-    
+        })
+    }    
 
     return (     
             <div className="display">
