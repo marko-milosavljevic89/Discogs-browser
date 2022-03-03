@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import './ShowDetails.css'
 import loading from './../images/loading.svg'
+import noImage from './../images/result.svg'
 
 const ShowDetails = ({togglePop, setTogglePop, detailsData, detailsURI = 'https://api.discogs.com/masters/63451'}) => {
 
@@ -42,7 +43,7 @@ const ShowDetails = ({togglePop, setTogglePop, detailsData, detailsURI = 'https:
                     <div className="details-container">
                         <div className="image-container">
                             <span className="spany">
-                                <img className="album-image" src={detailsData.img} ></img>
+                            {detailsData.img ==='https://s.discogs.com/001619958516357e209d41f7f800a27cfb56ae33/images/spacer.gif' ? <img className="album-image" src={noImage}  ></img> : <img className="album-image" src={detailsData.img} ></img>}
                                 
                             </span>
                             
