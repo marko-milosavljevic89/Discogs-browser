@@ -51,3 +51,7 @@
 .current {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 450px) {
+    .pagination-container {font-size: 12px;}
+}
