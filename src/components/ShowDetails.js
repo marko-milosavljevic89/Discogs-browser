@@ -43,7 +43,7 @@ const ShowDetails = ({togglePop, setTogglePop, detailsData, detailsURI = 'https:
                     <div className="details-container">
                         <div className="image-container">
                             <span className="spany">
-                            {detailsData.img === 'https://s.discogs.com/4726e9db847ee8da425ba328f66de2bdf46e5a13/images/spacer.gif' ? <img className="album-image" src={noImage}  ></img> : <img className="album-image" src={detailsData.img} ></img>}
+                            {detailsData.img === 'https://s.discogs.com/a48a608e94348793e1fc68c20e536acc929c705b/images/spacer.gif' ? <img className="album-image" src={noImage}  ></img> : <img className="album-image" src={detailsData.img} ></img>}
                                 
                             </span>
                             
