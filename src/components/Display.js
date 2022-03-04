@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import './Display.css'
 import Result from "./Result";
 import Loading from "./Loading";
+import Error from "./Error";
 
 const Display = ({setDetailsURI, setDetailsData, seek, togglePop, setTogglePop}) => {
 
@@ -24,7 +25,15 @@ const Display = ({setDetailsURI, setDetailsData, seek, togglePop, setTogglePop})
             disp.push(<Loading/>)
             }
         }
-    else { disp = seek.results.map( (result, index) => {
+
+    else if (seek.results.length === 0) {
+        disp.push(<Error/>)
+        
+    }
+        
+    else {
+        console.log(seek)
+        disp = seek.results.map( (result, index) => {
         return (
         <Result url = {result.resource_url} setDetailsURI={setDetailsURI} setDetailsData={setDetailsData} key={index} result = {result}  index = {index} togglePop={togglePop} setTogglePop={setTogglePop} />
                 )

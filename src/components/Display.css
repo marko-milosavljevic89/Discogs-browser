@@ -64,3 +64,9 @@
     text-overflow: ellipsis;
     font-weight: bold;
  }
+
+ .error-container {
+    display: flex;
+    height: 20vh;
+    align-items: center;
+ }
