@@ -10,7 +10,7 @@ const Result = ({url, setDetailsData, setDetailsURI, result, index, togglePop, s
     return (
         <div onClick={()=>{setDetailsData({ img : result.cover_image, album: result.title, country : result.country, genre : result.genre, label: result.label, format: result.format, year: result.year }); setDetailsURI(url); setTogglePop(true);}} className="display-container">
             
-            {result.cover_image === 'https://s.discogs.com/a48a608e94348793e1fc68c20e536acc929c705b/images/spacer.gif' ?  <img className="album-thumb" src={noImage} alt={''}></img> :  <img className="album-thumb" src={result.cover_image}  alt={''}></img>}
+            {result.cover_image.includes('spacer.gif') ?  <img className="album-thumb" src={noImage} alt={''}></img> :  <img className="album-thumb" src={result.cover_image}  alt={''}></img>}
                 <div className="album-title">{result.title}</div>
                 <h5 className="album-year">{result.year}</h5>               
             
