@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Discogs-browser/static/css/main.6a61a5f0.css",
+    "main.js": "/Discogs-browser/static/js/main.4c104bd2.js",
+    "static/js/787.f8f1dd2f.chunk.js": "/Discogs-browser/static/js/787.f8f1dd2f.chunk.js",
+    "static/media/IMG_5940.jpg": "/Discogs-browser/static/media/IMG_5940.191e0db25d6d24263cf3.jpg",
+    "static/media/discogs_logo.png": "/Discogs-browser/static/media/discogs_logo.2376c930e0a69f244859.png",
+    "static/media/loading.svg": "/Discogs-browser/static/media/loading.b022654f567a4df8ab31166025b07e6c.svg",
+    "static/media/result.svg": "/Discogs-browser/static/media/result.bd48d08cbc790233e9888d80b41aaac0.svg",
+    "index.html": "/Discogs-browser/index.html",
+    "main.6a61a5f0.css.map": "/Discogs-browser/static/css/main.6a61a5f0.css.map",
+    "main.4c104bd2.js.map": "/Discogs-browser/static/js/main.4c104bd2.js.map",
+    "787.f8f1dd2f.chunk.js.map": "/Discogs-browser/static/js/787.f8f1dd2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a61a5f0.css",
+    "static/js/main.4c104bd2.js"
+  ]
+}
